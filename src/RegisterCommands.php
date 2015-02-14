@@ -8,5 +8,5 @@ use MODX\Shell\CommandRegistrar;
 
 class RegisterCommands extends CommandRegistrar
 {
-    public static $namespace = 'ThirdParty';
+
 }
