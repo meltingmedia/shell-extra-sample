@@ -1,0 +1,23 @@
+{
+    "name": "thirdparty/library",
+    "description": "Some sample extra commands for MODX Shell",
+    "keywords": ["MODX Shell", "sample"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romain Tripault",
+            "email": "romain@melting-media.com",
+            "homepage": "http://melting-media.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ThirdParty\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist"
+    }
+}
