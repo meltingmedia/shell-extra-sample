@@ -5,5 +5,5 @@
  * @see MODX\Shell\CommandRegistrar::unRegister
  */
 return array(
-    'ThirdParty/command/SampleCommand'
+    'ThirdParty/Command/SampleCommand'
 );
